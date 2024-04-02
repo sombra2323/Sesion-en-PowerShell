@@ -1,0 +1,4 @@
+// código de iniciación 
+ $session = New-PSSession -ComputerName NombreDelEquipo -Credential (Get-Credential)
+ // código de finalización
+ Remove-PSSession $session
